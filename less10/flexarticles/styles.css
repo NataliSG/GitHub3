@@ -1,18 +1,26 @@
-header {
+body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    /* display: flex; */
+    text-align: center;
 }
 
 .article {
     margin: 8px;
     padding: 16px;
+    min-width: 300px;
     background-color: bisque;
     flex-basis: 100vh;
+    flex-wrap: wrap;
 }
 
 .articles-list {
-    display: flex;
-    min-width: 300px;
     flex-grow: 1;
     flex-shrink: 1;
-}
+    /* flex-wrap: wrap;  */
+    /* flex-basis: 100vh; */
+} 
+  
