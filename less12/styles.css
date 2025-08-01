@@ -10,6 +10,7 @@ h1 {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 p {
@@ -17,7 +18,7 @@ p {
 }
 
 span {
-    font-weight: bold;
+    font-weight: 900;
     letter-spacing: 3px;
     font-size: 24px;
     opacity: 80%;
